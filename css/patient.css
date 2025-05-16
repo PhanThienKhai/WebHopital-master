@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.profile-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.profile-info h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    color: #555;
+    margin: 5px 0;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.actions button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.actions button:hover {
+    background-color: #555;
+}
+
+.filter-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-section label {
+    margin-right: 10px;
+    color: #555;
+}
+
+.filter-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.filter-section button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-section button:hover {
+    background-color: #0056b3;
+}
+
+.results-section {
+    margin-top: 20px;
+}
+
+.results-section h3 {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.result-item {
+    background-color: #e6f7ff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.result-item h4 {
+    color: #333;
+}
+
+.diagnosis p {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #d4edda;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #155724;
+}
+
+.edit-icon {
+    cursor: pointer;
+    color: #007bff;
+}
